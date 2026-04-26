@@ -1,4 +1,4 @@
-// -----------------------------------------------------------------------------
+ï»¿// -----------------------------------------------------------------------------
 // GEngine : High-Performance Native Virtual Window System
 // Copyright (c) 2026 Bonnie Inc. 
 // All rights reserved.
@@ -44,7 +44,7 @@ namespace GEngine
 
 		Point TopLeft() const { return { x, y }; }
 
-		// Viewport Culling ¿¡ ¾²ÀÏ ±³Â÷ ÆÇÁ¤
+		// Viewport Culling ì— ì“°ì¼ êµì°¨ íŒì •
 		bool Intersects(const Rect& other) const
 		{
 			return !(other.x > x + w || other.x + other.w < x ||
